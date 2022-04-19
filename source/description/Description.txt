@@ -1,0 +1,40 @@
+[h1]VEHICLE VIEWER[/h1]
+
+This modification (or a mod) allows you to preview images of vehicle classes and their basic parameters.
+
+Previewing means
+[list]
+ [*] using the graphical user interface (GUI) to see the image of the vehicle class,
+ [*] filtering vehicle classes by their kind, prefix and class name text filter,
+ [*] seeing some basic parameters of the vehicle class.
+[/list]
+
+Vehicle class kinds can have various values. They are not well documented by Bohemia Interactive Studios, so you may have to find them on your own. Some of them may be the following kinds: All, Land, Ship, Air, Car, Tank, Helicopter, Plane, UAV. Class hierarchy indicator may be of help to find missing class kinds.
+
+[h1]USAGE INSTRUCTIONS[/h1]
+
+Vehicle Viewer is started from the action menu with the user action having the same name as the add-on. When the dialog window has appeared you should set your desired filtering settings and press the filter button. List of vehicle classes on the left-hand side will be updated. Once you select the class from that list, the information on the right-hand side will be updated accordingly.
+
+Class images are searched using the following algorithm:
+[list]
+ [*] 1. if an editor preview image is found, it is used as a class image;
+ [*] 2. if a 'picture' class parameter is found, it is used as a class image;
+ [*] 3. if an 'icon' class parameter is found, it is used as a class image;
+ [*] 4. pink background colour indicates that none of the mentioned sources are available.
+[/list]
+
+[h1]SOURCE CODE[/h1]
+
+The source code is located at GitHub:
+https://github.com/neverwinter-nights/Vehicle-Viewer
+
+[h1]VERSION[/h1]
+
+0.1.
+
+[h1]RELEASE NOTES[/h1]
+
+[Version 0.1]
+[list]
+ [*] Initial release.
+[/list]
